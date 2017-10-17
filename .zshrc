@@ -114,3 +114,10 @@ alias nt="npm test"
 alias ys="yarn start"
 alias yr="yarn run"
 alias yt="yarn test"
+
+# pure-prompt is a node module
+autoload -U promptinit; promptinit
+prompt pure
+
+# zsh-syntax-highlighting
+source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
